@@ -1,7 +1,7 @@
 /**
  * Blocks for driving the Kitronik I2C 16-Servo Driver Board
  */
-//% weight=150 color=#de3b09 icon="\uf085" block="THK"
+//% weight=150 color=#de3b09 icon="\uf085" block="サーボモータ"
 
 namespace THK {
 
