@@ -126,9 +126,12 @@ namespace THK {
         if (initalised == false) {
             secretIncantation()
         }
+
+        degrees = degrees + 90
         if (degrees < 1) {
             degrees = 1
         }
+
         let buf = pins.createBuffer(2)
         let HighByte = false
         let deg100 = degrees * keisuu_setting //元は100
